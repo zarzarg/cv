@@ -1,0 +1,83 @@
+@keyframes slidy {
+    0% { left: 0%; }
+    15% { left: 0% }
+    20% { left: -100%; }
+    40% { left: -100%; }
+    45% { left: -200%; }
+    60% { left: -200%; }
+    65% { left: -100%; }
+    80% { left: -100%; }
+    85% { left: 0%; }
+    100% { left: 0%; }
+}
+
+.wrapperForm{
+    display: flex;
+    align-items: center;
+    height: 100%; 
+}
+@media (max-width: 1024px) {
+    .wrapperForm {
+      flex-direction: column;
+      gap: 5vh;
+    }
+  }
+.wrapperForm h1{
+    text-align: center;
+}
+.formation{
+    width: 100%;
+}
+.diplomeWrapper{
+    text-align: center;
+}
+.diplome{
+    color: black;
+    
+}
+@media (max-width: 1024px) {
+    .diplome {
+      font-size: 16px;
+    }
+  }
+.ecole{
+    font-size: 16px;
+    color: gray;
+}
+@media (max-width: 1024px) {
+    .ecole {
+      font-size: 14px;
+    }
+  }
+.years{
+    font-style: italic;
+    font-size: 14px;
+    color: darkgray;
+}
+@media (max-width: 1024px) {
+    .years {
+      font-size: 12px;
+    }
+  }
+
+div#slider { 
+    overflow: hidden;
+    width: 100%; 
+}
+.mySlides img { 
+    width: 20%;
+    height: auto; 
+    float: left;
+}
+    
+.slideshow-container {
+    background-color: red;
+    position: relative;
+    width: 500%;
+    left: 0;
+    animation: 10s slidy infinite;
+}
+
+
+    
+    

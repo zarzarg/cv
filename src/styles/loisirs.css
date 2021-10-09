@@ -1,0 +1,54 @@
+.wrapperCentreInteret{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+@media (max-width: 1024px) {
+    .wrapperCentreInteret {
+      gap: 1vh;
+    }
+  }
+
+.containerLoisirContact{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+@media (max-width: 1024px) {
+    .containerLoisirContact {
+      flex-direction: column;
+      padding-bottom: 2vh;
+    }
+  }
+.containerLoisirContact h2 {
+    color:black;
+}
+.wrapperContact{
+    align-self: center;
+}
+.wrapperLoisir{
+    align-self: center;
+}
+.loisirTitle {
+    line-height: 0;
+}
+.loisir{
+    line-height: 0;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+

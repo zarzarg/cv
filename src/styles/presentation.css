@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Romanesco";
+    src: url('../fonts/Romanesco/Romanesco-Regular.ttf');
+}
+
+.desc{
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Romanesco";
+  letter-spacing: 1.3px;
+}
+@media (max-width: 1024px) {
+  .desc {
+    height: auto;
+    justify-content: space-between;
+    gap: 1vh;
+    padding: 3vw;
+  }
+}
+.typing1{
+    animation: type-1 4s ease-in;
+}
+.typing2{
+    animation: type-2 7.6s ease-in;
+}
+.typing3{
+    animation: type-3 12s ease-in;
+}
+.typing4{
+    animation: type-4 15.5s ease-in;
+}
+.typing5{
+    animation: type-5 20.5s ease-in ;
+}
+.typing6{
+    animation: type-5 25.8s ease-in;
+}
+@keyframes type-1 {
+    from {width: 0;}
+  }
+  @keyframes type-2 {
+    0%{width: 0;}
+    40%{width: 0;}
+    100%{width: 100;}
+  }
+  @keyframes type-3 {
+    0%{width: 0;}
+    58%{width: 0;}
+    100%{width: 100;}
+  }
+  @keyframes type-4 {
+    0%{width: 0;}
+    67%{width: 0;}
+    100%{width: 100;}
+  }
+  @keyframes type-5 {
+    0%{width: 0;}
+    75%{width: 0;}
+    100%{width: 100;}
+  }
+  @keyframes blink {
+    to{opacity: .0;}
+  }
+ 
+  .desc span {
+    white-space: nowrap;
+    width: 1024px;
+    overflow: hidden;
+    line-height: 1.2;
+  }
+  @media (max-width: 1024px) {
+    .desc span {
+      animation: none;
+      width: auto;
+      white-space: unset;
+    }
+  }
+.presentationTitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: lightskyblue;
+}
+@media (max-width: 1024px) {
+  .presentationTitle {
+    font-size: 24px;
+  }
+}
+
+

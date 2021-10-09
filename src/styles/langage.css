@@ -1,0 +1,181 @@
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg) translate(100px);
+  }
+  to {
+    transform: rotate(360deg) translate(100px);
+  }
+}
+@keyframes rotate{
+    from {
+        transform:rotate(360deg);
+    }
+    to{
+        transform:rotate(0deg);
+    }
+}
+
+.wrapperComp{
+    display: grid;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 1024px) {
+    .wrapperComp {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      gap: 1vh;
+    }
+  }
+.competence{
+    grid-area: 1 / 1 / 2 / 4;
+    text-align: center;
+    line-height: 0;
+}
+.comp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.logiciel{
+    font-size: 18px;
+    text-align: center;
+    grid-area: 2 / 3 / 3 / 4;
+    justify-self: center;
+}
+.langage{
+    font-size: 18px;
+    text-align: center;
+    grid-area: 2 / 1 / 3 / 2;
+    height: 35vh;
+}
+@media (max-width: 1024px) {
+    .langage {
+      height:auto;
+    }
+  }
+.langue{
+    font-size: 18px;
+    text-align: center;
+    grid-area: 2 / 1 / 4 / 4;
+    align-self: flex-end;
+}
+@media (max-width: 1024px) {
+    .langue {
+      align-self: center;
+    }
+  }
+
+.langue h2 {
+    line-height: 0;
+}
+.container{
+    grid-area: 1 / 1 / 3 / 4;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+
+}
+@media (max-width: 1024px) {
+    .container {
+      height: 35vh;
+      order: -1;
+    }
+  }
+.container > * {
+    grid-column: 1;
+    grid-row: 1;
+}
+.html{
+    font-size: 40px;
+    animation: spinAround 7s linear infinite;
+    color: red;
+}
+.css{
+    font-size: 40px;
+    animation: spinAround 7s linear -1s infinite;
+    color:dodgerblue;
+}
+.sass{
+    font-size: 40px;
+    animation: spinAround 7s linear -2s infinite;
+    color: violet;
+}
+.js{
+    font-size: 40px;
+    animation: spinAround 7s linear -3s infinite;
+    color:rgb(246, 186, 35);
+}
+.java{
+    font-size: 40px;
+    animation: spinAround 7s linear -4s infinite;
+    color:firebrick;
+}
+.php{
+    font-size: 40px;
+    animation: spinAround 7s linear -5s infinite;
+    color: mediumpurple;
+    
+}
+.node{
+    font-size: 40px;    
+    animation: spinAround 7s linear -6s infinite;
+    color: forestgreen;
+}
+.react-logo{
+    display: inline-block;
+    border-radius:50%;
+    border:5px solid #00d8ff;
+    animation-name:rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    justify-self: center;
+    align-self: center;
+}
+
+.react-logo , .react-logo:before , .react-logo:after{
+    position:absolute;
+    display: inline-block;
+    width:100px;
+    height:35px;
+    border-radius:50%;
+    border:5px solid #00d8ff;
+}
+@media (max-width: 1024px) {
+    .react-logo , .react-logo:before , .react-logo:after {
+      position: none;
+    }
+  }
+
+.nucleo , .react-logo , .react-logo:before , .react-logo:after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nucleo{
+    width:20px;
+    height:20px;
+    border-radius:100%;
+    background:#00d8ff;
+}
+
+.react-logo:before , .react-logo:after{
+    content:"";
+}
+
+.react-logo:after{
+    transform:rotate(-57deg);
+}
+
+.react-logo:before{
+    transform:rotate(57deg);
+}
+
+
+
