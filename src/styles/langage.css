@@ -103,55 +103,25 @@
     animation: spinAround 7s linear infinite;
     color: red;
 }
-@media (max-width: 1024px) {
-    .html {
-        font-size: 2rem;
-        animation: spinAround2 7s linear infinite;
-    }
-}
 .css{
     font-size: 40px;
     animation: spinAround 7s linear -1s infinite;
     color:dodgerblue;
-}
-@media (max-width: 1024px) {
-    .css {
-        font-size: 2rem;
-        animation: spinAround2 7s linear -1s infinite;
-    }
 }
 .sass{
     font-size: 40px;
     animation: spinAround 7s linear -2s infinite;
     color: violet;
 }
-@media (max-width: 1024px) {
-    .sass {
-        font-size: 2rem;
-        animation: spinAround2 7s linear -2s infinite;
-    }
-}
 .js{
     font-size: 40px;
     animation: spinAround 7s linear -3s infinite;
     color:rgb(246, 186, 35);
 }
-@media (max-width: 1024px) {
-    .js {
-        font-size: 2rem;
-        animation: spinAround2 7s linear -3s infinite;
-    }
-}
 .java{
     font-size: 40px;
     animation: spinAround 7s linear -4s infinite;
     color:firebrick;
-}
-@media (max-width: 1024px) {
-    .java {
-        font-size: 2rem;
-        animation: spinAround2 7s linear -4s infinite;
-    }
 }
 .php{
     font-size: 40px;
@@ -159,22 +129,10 @@
     color: mediumpurple;
     
 }
-@media (max-width: 1024px) {
-    .php {
-        font-size: 2rem;
-        animation: spinAround2 7s linear -5s infinite;
-    }
-}
 .node{
     font-size: 40px;    
     animation: spinAround 7s linear -6s infinite;
     color: forestgreen;
-}
-@media (max-width: 1024px) {
-    .node {
-        font-size: 2rem;
-        animation: spinAround2 7s linear -6s infinite;
-    }
 }
 .react-logo{
     display: inline-block;
@@ -198,9 +156,7 @@
 }
 @media (max-width: 1024px) {
     .react-logo , .react-logo:before , .react-logo:after {
-      position: none;
-      width: 4vw;
-      height: 14vw;
+      position: none; 
     }
   }
 
@@ -218,8 +174,6 @@
 }
 @media (max-width: 1024px) {
     .nucleo{
-        width: 3vw;
-        height: 3vw;
     }
 }
 
