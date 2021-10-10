@@ -53,6 +53,13 @@
     transition: all .2s ease-in-out;
     border: 2px solid lightskyblue;
 }
+@media (max-width: 1024px) {
+  .mondange{
+    width: 50vw;
+    height: auto;
+  }
+}
+
 
 .mondange:hover{
     transform: scale(1.8);
@@ -68,6 +75,12 @@
     border-radius: 10px;
     transition: all .2s ease-in-out;
     border: 2px solid lightskyblue;
+}
+@media (max-width: 1024px) {
+  .plusquenet{
+    width: 50vw;
+    height: auto;
+  }
 }
 .plusquenet:hover{
     transform: scale(1.8);

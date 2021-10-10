@@ -8,10 +8,10 @@
 }
 @keyframes spinAround2 {
   from {
-    transform: rotate(0deg) translate(75px);
+    transform: rotate(0deg) translate(11vw);
   }
   to {
-    transform: rotate(360deg) translate(75px);
+    transform: rotate(360deg) translate(11vw);
   }
 }
 @keyframes rotate{
@@ -105,7 +105,7 @@
 }
 @media (max-width: 1024px) {
     .html {
-        font-size: 25px;
+        font-size: 2rem;
         animation: spinAround2 7s linear infinite;
     }
 }
@@ -116,7 +116,7 @@
 }
 @media (max-width: 1024px) {
     .css {
-        font-size: 25px;
+        font-size: 2rem;
         animation: spinAround2 7s linear -1s infinite;
     }
 }
@@ -127,7 +127,7 @@
 }
 @media (max-width: 1024px) {
     .sass {
-        font-size: 25px;
+        font-size: 2rem;
         animation: spinAround2 7s linear -2s infinite;
     }
 }
@@ -138,7 +138,7 @@
 }
 @media (max-width: 1024px) {
     .js {
-        font-size: 25px;
+        font-size: 2rem;
         animation: spinAround2 7s linear -3s infinite;
     }
 }
@@ -149,7 +149,7 @@
 }
 @media (max-width: 1024px) {
     .java {
-        font-size: 25px;
+        font-size: 2rem;
         animation: spinAround2 7s linear -4s infinite;
     }
 }
@@ -161,7 +161,7 @@
 }
 @media (max-width: 1024px) {
     .php {
-        font-size: 25px;
+        font-size: 2rem;
         animation: spinAround2 7s linear -5s infinite;
     }
 }
@@ -172,7 +172,7 @@
 }
 @media (max-width: 1024px) {
     .node {
-        font-size: 25px;
+        font-size: 2rem;
         animation: spinAround2 7s linear -6s infinite;
     }
 }
@@ -199,8 +199,8 @@
 @media (max-width: 1024px) {
     .react-logo , .react-logo:before , .react-logo:after {
       position: none;
-      width: 75px;
-      height: 25px;
+      width: 4vw;
+      height: 14vw;
     }
   }
 
@@ -218,8 +218,8 @@
 }
 @media (max-width: 1024px) {
     .nucleo{
-        width: 15px;
-        height: 15px;
+        width: 3vw;
+        height: 3vw;
     }
 }
 

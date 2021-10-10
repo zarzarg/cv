@@ -162,7 +162,7 @@ p{
 }
 @media (max-width: 1024px) {
   .photo{
-    width: 50%;
+    width: 35vw;
     height: auto;
   }
 } 
