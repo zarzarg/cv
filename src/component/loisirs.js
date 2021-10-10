@@ -41,8 +41,8 @@ const Loisirs = () => {
                         </address>
                     </div>
                     <h3>Adresse postale</h3>
-                    <p>Masorchia<br></br>
-                        20111 Calcatoggio</p>
+                    <p>4 clos du lavoir <br></br>
+                        33240 La lande-de-fronsac</p>
                     <h3>LinkedIn</h3>
                     <a href="https://www.linkedin.com/in/rapha%C3%ABl-boccanfuso/">Raphaël Boccanfuso</a>
                 </div>
