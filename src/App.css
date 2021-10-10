@@ -85,6 +85,7 @@ p{
   height: 100%;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+
 .direction {
   display: flex;
   width: 50vw;
@@ -117,11 +118,13 @@ p{
 @media (max-width: 1024px) {
   h2 {
     font-size: 20px;
+    line-height: 1;
   }
 }
 @media (max-width: 1024px) {
   h3 {
     font-size: 18px;
+    line-height: 1;
   }
 }
 @media (max-width: 1024px) {
@@ -159,7 +162,7 @@ p{
 }
 @media (max-width: 1024px) {
   .photo{
-    width: 25%;
+    width: 50%;
     height: auto;
   }
 } 
