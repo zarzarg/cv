@@ -172,10 +172,7 @@
     border-radius:100%;
     background:#00d8ff;
 }
-@media (max-width: 1024px) {
-    .nucleo{
-    }
-}
+
 
 .react-logo:before , .react-logo:after{
     content:"";

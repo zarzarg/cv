@@ -12,7 +12,7 @@ const Formation = () => {
                     <h1>Formations</h1>
                     <div className="diplomeWrapper">
                         <h3 className="diplome">BAC +3/+4 Concepteur Développeur d’Applications</h3> 
-                        <div className="ecole">2I TECH Academy - Bordeaux</div>
+                        <div className="ecole">Cloud Campus - Paris</div>
                         <div className="years">2021-2023 durée 24 mois</div>
                     </div>
                     <div className="diplomeWrapper">
