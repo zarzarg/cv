@@ -41,8 +41,8 @@ const Loisirs = () => {
                         </address>
                     </div>
                     <h3>Adresse postale</h3>
-                    <p>13 rue de l'église <br></br>
-                        60260 Lamorlaye</p>
+                    <p>4 Lotissement Clos du lavoir <br></br>
+                        33240 La lande-de-fronsac</p>
                     <h3>LinkedIn</h3>
                     <a href="https://www.linkedin.com/in/rapha%C3%ABl-boccanfuso/">Raphaël Boccanfuso</a>
                 </div>
